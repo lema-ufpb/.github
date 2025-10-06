@@ -76,16 +76,13 @@ Documentação: [`docs/ci-cd-pipelines.md`](./docs/ci-cd-pipelines.md)
 
 ## 💬 7. Comunicação
 
-- Slack: `#dev-acme`
-- E-mail: `devops@acme.com`
-- Reuniões semanais: **terça-feira, 10h**
+- E-mail: `ufpblema@gmail.com`
 
 ---
 
 ## 🧾 8. Recursos úteis
 
 - [Documentação oficial GitHub](https://docs.github.com)
-- [Manual interno de DevOps](https://confluence.acme.com/devops)
 - [Guia de Design System](https://ds.lema.ufpb.br)
 
 ---
