@@ -1,4 +1,4 @@
-# 🧭 Guia de Onboarding Técnico — Organização ACME
+# 🧭 Guia de Onboarding Técnico 
 
 Bem-vindo(a) à equipe!  
 Este guia serve como **ponto de partida** para qualquer novo colaborador técnico do LEMA-UFPB.
@@ -11,9 +11,10 @@ Este guia serve como **ponto de partida** para qualquer novo colaborador técnic
 2. Configure sua chave SSH seguindo o [guia oficial](https://docs.github.com/pt/authentication/connecting-to-github-with-ssh).  
 3. Clone os repositórios principais:
    ```bash
-   git clone git@github.com:acme/frontend.git
-   git clone git@github.com:acme/backend.git
-   git clone git@github.com:acme/infrastructure.git
+   # Exemplos hipotéticos
+   git clone git@github.com:lema/frontend.git
+   git clone git@github.com:lema/backend.git
+   git clone git@github.com:lema/infrastructure.git
    ```
 
 4. Configure seu ambiente local:  
