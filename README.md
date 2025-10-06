@@ -1,4 +1,4 @@
-# 🧭 Guia de Onboarding Técnico 
+# 🧭 Guia de Onboarding Técnico
 
 Bem-vindo(a) à equipe!  
 Este guia serve como **ponto de partida** para qualquer novo colaborador técnico do LEMA-UFPB.
@@ -7,14 +7,15 @@ Este guia serve como **ponto de partida** para qualquer novo colaborador técnic
 
 ## 🚀 1. Primeiros passos
 
-1. Solicite acesso à organização GitHub: **@admin**  
-2. Configure sua chave SSH seguindo o [guia oficial](https://docs.github.com/pt/authentication/connecting-to-github-with-ssh).  
+1. Solicite acesso à organização GitHub: **@admin**
+2. Configure sua chave SSH seguindo o [guia oficial](https://docs.github.com/pt/authentication/connecting-to-github-with-ssh).
 3. Clone os repositórios principais:
+
    ```bash
    # Exemplos hipotéticos
-   git clone git@github.com:lema/frontend.git
-   git clone git@github.com:lema/backend.git
-   git clone git@github.com:lema/infrastructure.git
+   git clone git@github.com:lema-ufpb/frontend.git
+   git clone git@github.com:lema-ufpb/backend.git
+   git clone git@github.com:lema-ufpb/infrastructure.git
    ```
 
 4. Configure seu ambiente local:  
@@ -24,17 +25,18 @@ Este guia serve como **ponto de partida** para qualquer novo colaborador técnic
 
 ## 🧩 2. Estrutura da organização
 
-| Área        | Repositório                | Descrição |
-|--------------|----------------------------|------------|
-| Frontend     | [`acme/frontend`](https://github.com/acme/frontend) | Aplicação React/Next.js |
-| Backend      | [`acme/backend`](https://github.com/acme/backend)   | API FastAPI/Python |
-| DevOps       | [`acme/infrastructure`](https://github.com/acme/infrastructure) | Helm Charts, Terraform, CI/CD |
+| Área     | Repositório                                                               | Descrição                     |
+| -------- | ------------------------------------------------------------------------- | ----------------------------- |
+| Frontend | [`lema-ufpb/frontend`](https://github.com/lema-ufbp/frontend)             | Aplicação React/Next.js       |
+| Backend  | [`lema-ufpb/backend`](https://github.com/lema-ufpb/backend)               | API FastAPI/Python            |
+| DevOps   | [`lema-ufpb/infrastructure`](https://github.com/lema-ufpb/infrastructure) | Helm Charts, Terraform, CI/CD |
 
 ---
 
 ## 🔁 3. Fluxo de trabalho (GitFlow)
 
 Seguimos o padrão **GitFlow**:
+
 - `main`: produção
 - `develop`: integração de features
 - `feature/*`: novas funcionalidades
@@ -48,6 +50,7 @@ Consulte o guia completo: [`docs/gitflow-guide.md`](./docs/gitflow-guide.md)
 ## 🧱 4. Contribuição
 
 Antes de abrir uma PR, leia:
+
 - [`CONTRIBUTING.md`](./CONTRIBUTING.md)
 - [`CODE_OF_CONDUCT.md`](./CODE_OF_CONDUCT.md)
 
@@ -58,6 +61,7 @@ Use sempre o template de PR (`.github/PULL_REQUEST_TEMPLATE.md`).
 ## ⚙️ 5. CI/CD
 
 Nosso pipeline automatiza:
+
 - Build
 - Testes
 - Deploy no Kubernetes
@@ -86,4 +90,3 @@ Documentação: [`docs/ci-cd-pipelines.md`](./docs/ci-cd-pipelines.md)
 - [Guia de Design System](https://ds.lema.ufpb.br)
 
 ---
-
