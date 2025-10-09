@@ -89,6 +89,7 @@ Documentação: [`docs/ci-cd-pipelines.md`](./docs/ci-cd-pipelines.md)
 - [Documentação oficial GitHub](https://docs.github.com)
 - [Guia de Design System](https://ds.lema.ufpb.br)
 - Tipos de APIs explicados: [https://youtu.be/pBASqUbZgkY?si=90PvDFvyI8uYn8uc](https://youtu.be/pBASqUbZgkY?si=90PvDFvyI8uYn8uc)
+- API Security Explained: Rate Limiting, CORS, SQL Injection, CSRF, XSS & More: [https://youtu.be/FsB_nRGdeLs?si=g1ZkWvR55gnivzXD](https://youtu.be/FsB_nRGdeLs?si=g1ZkWvR55gnivzXD)
 - Conceitos do NextJS em 10 min: [https://www.youtube.com/watch?v=MYdvzQ0-cis](https://www.youtube.com/watch?v=MYdvzQ0-cis)
 
 
